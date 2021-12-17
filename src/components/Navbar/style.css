@@ -1,12 +1,13 @@
 .navbar {
-    height: 80px;
-    width: 100px;
-    color: white;
+    height: 60px;
+    width: 100%;
+    color: orangered;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.2rem;
+    justify-content: right;
+    align-items: right;
+    padding: 0, 2rem; 
     font-size: 1.2rem;
+    /* background-color: tomato; */
 }
 
 .nav-logo {
@@ -16,11 +17,16 @@
 }
 
 .nav-links {
+    display:grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 20px;
     list-style: none;
 }
 .nav-link {
     text-decoration: none;
-    color: white;
+    color: grey;
+    transition: 0.3s all;
+   
 }
 .nav-link :hover {
     color: tomato;
