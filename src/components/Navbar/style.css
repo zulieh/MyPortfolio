@@ -3,8 +3,8 @@
     width: 100%;
     color: orangered;
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: space-between;
+    /* align-items: center; */
     padding: 0, 2rem; 
     font-size: 1.2rem;
     /* background-color: tomato; */
@@ -12,7 +12,8 @@
 
 .nav-logo {
     text-decoration: none;
-    color:white;
+    color:grey;
+    justify-content: left;
 
 }
 
@@ -29,7 +30,7 @@
    
 }
 .nav-link :hover {
-    color: tomato;
+    color: greenyellow;
 }
 .nav-icons {
     display: none;

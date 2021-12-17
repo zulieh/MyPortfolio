@@ -6,7 +6,9 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
         <nav className= "navbar">
-            <div className= "logo">
+            <Link to= "/" className= "logo" onClick={() => setOpen(false)}>
+                LOGO
+            </Link>
                 <ul className={open ? "nav-links-active" : "nav-links"}>
                     <li className="nav-item">
                         <Link to= "/Home" className="nav-link" onClick={() => setOpen(false)}>About</Link>
@@ -21,7 +23,7 @@ const Navbar = () => {
                         <Link to="/Contact" className="nav-link" onClick={() => setOpen(false)}>Contact</Link>
                     </li>
                 </ul>
-            </div>   
+            
         </nav>
     )
 }

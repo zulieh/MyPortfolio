@@ -26,8 +26,9 @@ const Footer = () => (
                         <FontAwesomeIcon icon={faMedium} />
                     </a>
                 </li> 
-            </ul>
+            </ul>      
         </div>
+        <p className= 'footer-text'>&copy; 2021 Design and Develop by Zuleiha Dantijani.</p>
     </footer>
         
 );
