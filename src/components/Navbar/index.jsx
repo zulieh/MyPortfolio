@@ -10,13 +10,13 @@ const Navbar = () => {
                         <Link to= "/" className="nav-link" onClick={() => setOpen(false)}>Home</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to= "/" className="nav-links" onClick={() => setOpen(false)}>Skills</Link>
+                        <Link to= "/" className="nav-link" onClick={() => setOpen(false)}>Skills</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to="/" className="nav-links" onClick={() => setOpen(false)}>About</Link>
+                        <Link to="/" className="nav-link" onClick={() => setOpen(false)}>About</Link>
                     </li>
                     <li className="navbar">
-                        <Link to="/" className="nav-links" onClick={() => setOpen(false)}>Contact</Link>
+                        <Link to="/" className="nav-link" onClick={() => setOpen(false)}>Contact</Link>
                     </li>
                 </ul>
             </div>   
