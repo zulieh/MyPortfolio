@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <nav className= "navbar">
             <Link to= "/" className= "logo" onClick={() => setOpen(false)}>
-                LOGO
+                #
             </Link>
                 <ul className={open ? "nav-links-active" : "nav-links"}>
                     <li className="nav-item">

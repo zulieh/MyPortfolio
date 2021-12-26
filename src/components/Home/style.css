@@ -6,6 +6,7 @@ flex-direction: column;
 align-items: center;
 margin-top:5%;
 font-family: 'Times New Roman', Times, serif;
+
 }
 
 .home .title {
@@ -55,8 +56,8 @@ h4 {
      margin-top: 0;
      text-align: left;
      font-size: 20px;
-
      }
+     
      .home .person img {
          width: 90%;
      }   
