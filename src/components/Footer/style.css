@@ -1,17 +1,22 @@
 .footer {
     width: 100%;
-    padding: 10px;
-    background-color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    /* padding: 15px; */
+    margin-top: 8%;
+    text-decoration: underline;
+    /* background-color: grey; */
     
 } 
 .footer-list {
-    width: 60%;
+    width: 100%;
     
 }
  .footer-media-item {
     list-style: none;
-    margin: 15px; 
+    margin:15px; 
     cursor: pointer;   
+    /* background-color: red; */
+    justify-content: right;
     
  }
     
@@ -21,14 +26,14 @@
     justify-content: center; 
 }
 
-.footer img {
+/* .footer img {
     max-width: 60px;  
-}
+} */
 
-.footer img:not(:last-child) {
+/* .footer img:not(:last-child) {
     margin-right: 10px;   
-}
+} */
 .footer-text {
     text-align: center;
-    color:greenyellow;
+    color:grey;
 }

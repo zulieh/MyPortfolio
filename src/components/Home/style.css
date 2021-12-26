@@ -4,7 +4,10 @@ min-width: 100%;
 display: flex ;
 flex-direction: column;
 align-items: center;
+margin-top:5%;
+font-family: 'Times New Roman', Times, serif;
 }
+
 .home .title {
 width: 100%;
 font-size: 18px;
@@ -12,31 +15,33 @@ text-align: center;
 }
 
 .home .title p {
-line-height: 50px;
-
+line-height: 30px;
+margin-top: 1.5rem;
+font-family: 'Times New Roman', Times, serif;
 }
+
+h4 {
+    color: grey;
+    margin-top: 1rem;
+}
+
 .home .title button {
-    border: none;
-    outline: none;
+    border-color: grey;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 20px;
     margin-top: 30px;
-    color: #ffffff;
+    color: black;
     padding: 10px 15px;
     border-radius: 999px;
-    background-color: aqua;
-    font-family: "Rigteous", cursive;
-
+    font-family: 'Times New Roman', Times, serif;  
 }
+
 .home .person {
-    width: 100%;
-    margin-top: 20px;
+    margin-left: 10%;
 }
-
 .home .person img {
     width: 80%;
-    border-radius: 50%;   
-    
+    border-radius: 50%;     
 }
 
 @media (min-width: 800px) {
@@ -54,8 +59,6 @@ line-height: 50px;
      }
      .home .person img {
          width: 90%;
-     }
-
-    
+     }   
 } 
  
