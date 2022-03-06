@@ -37,3 +37,11 @@
     font-size: 2rem;
     cursor: pointer;
 }
+.logo {
+    border-radius: 100%;
+    padding: 1rem;
+    background-color: grey;
+    text-decoration: none;
+    color: white;
+    
+}

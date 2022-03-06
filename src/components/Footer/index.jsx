@@ -28,6 +28,7 @@ const Footer = () => (
                 </li> 
             </ul>      
         </div>
+        <hr></hr>
         <p className= 'footer-text'>&copy; 2021 Design and Develop by Zuleiha Dantijani.</p>
     </footer>
         

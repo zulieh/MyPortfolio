@@ -8,6 +8,7 @@
   flex-direction: column;
   background-color: #ffffff;
 }
+*{font-family: 'Poppins', sans-serif;}
 
 @media (min-width: 800px) {
   .app {
