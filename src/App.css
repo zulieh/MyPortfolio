@@ -2,19 +2,21 @@
   display: flex;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 0  15px;
+  padding: 0 15px;
   min-height: 100vh;
   border-radius: 10px;
   flex-direction: column;
   background-color: #ffffff;
 }
-*{font-family: 'Poppins', sans-serif;}
+
+* {
+  /* font-family: "Poppins", sans-serif; */
+}
 
 @media (min-width: 800px) {
   .app {
     padding: 0 100px;
-    margin-top: 5vh;
+    margin-top: 3vh;
     min-height: 90vh;
-    
   }
 }

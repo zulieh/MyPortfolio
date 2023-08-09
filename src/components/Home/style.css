@@ -1,65 +1,63 @@
 .home {
-flex-grow: 1;
-min-width: 100%;
-display: flex ;
-flex-direction: column;
-align-items: center;
-margin-top:5%;
-font-family: 'Times New Roman', Times, serif;
-
+  flex-grow: 1;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-top: 5%; */
+  /* font-family: "Times New Roman", Times, serif; */
 }
 
 .home .title {
-width: 100%;
-font-size: 18px;
-text-align: center;
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
 }
 
 .home .title p {
-line-height: 30px;
-margin-top: 1.5rem;
-font-family: 'Times New Roman', Times, serif;
+  line-height: 30px;
+  /* margin-top: 1.5rem; */
+  /* font-family: "Times New Roman", Times, serif; */
 }
 
 h4 {
-    color: grey;
-    margin-top: 1rem;
+  color: grey;
+  margin-top: 1rem;
 }
 
 .home .title button {
-    border-color: grey;
-    cursor: pointer;
-    font-size: 20px;
-    margin-top: 30px;
-    color: black;
-    padding: 10px 15px;
-    border-radius: 999px;
-    font-family: 'Times New Roman', Times, serif;  
+  border-color: grey;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 30px;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 999px;
+  /* font-family: "Times New Roman", Times, serif; */
 }
 
 .home .person {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 .home .person img {
-    width: 80%;
-    border-radius: 50%;     
+  width: 80%;
+  border-radius: 50%;
 }
 
 @media (min-width: 800px) {
-    .home {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .home .title,
-    .home .person{
-     width:  50%;
-     margin-top: 0;
-     text-align: left;
-     font-size: 20px;
-     }
-     
-     .home .person img {
-         width: 90%;
-     }   
-} 
- 
+  .home {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home .title,
+  .home .person {
+    width: 50%;
+    margin-top: 0;
+    text-align: left;
+    font-size: 20px;
+  }
+
+  .home .person img {
+    width: 90%;
+  }
+}

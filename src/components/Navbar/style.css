@@ -1,47 +1,44 @@
 .navbar {
-    height: 60px;
-    width: 100%;
-    color: orangered;
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    padding: 0, 2rem; 
-    font-size: 1.2rem;
-    /* background-color: tomato; */
+  height: 60px;
+  width: 100%;
+  color: orangered;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 0, 2rem;
+  font-size: 1.2rem;
+  /* background-color: tomato; */
 }
 
 .nav-logo {
-    text-decoration: none;
-    color:grey;
-    justify-content: left;
-
+  text-decoration: none;
+  color: grey;
+  justify-content: left;
 }
 
 .nav-links {
-    display:grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 20px;
-    list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+  list-style: none;
 }
 .nav-link {
-    text-decoration: none;
-    color: grey;
-    transition: 0.3s all;
-   
+  text-decoration: none;
+  color: grey;
+  transition: 0.3s all;
 }
 .nav-link :hover {
-    color: greenyellow;
+  color: greenyellow;
 }
 .nav-icons {
-    display: none;
-    font-size: 2rem;
-    cursor: pointer;
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
 }
 .logo {
-    border-radius: 100%;
-    padding: 1rem;
-    background-color: grey;
-    text-decoration: none;
-    color: white;
-    
+  border-radius: 100%;
+  padding: 1rem;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
 }

@@ -1,23 +1,29 @@
 import { Link } from "react-router-dom";
 import "./style.css";
-import pix from '../../assets/profile_p.jpeg'
+import pix from "../../assets/profile_p.jpeg";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="title">
         <h1>Zuleiha Dantijani</h1>
-        <h4>Full stack Software engineer</h4>
+        <h4>Frontend Engineer</h4>
         <p>
-          Fullstack software engineer with 2+ years of experience developing a
-          demonstrated history of working in the information technology and
-          services industry. I have a passion for developing innovative
-          solutions that expedite the efficiency and effectiveness of
-          organizational success, skilled in technologies such as React,
-          Javascript and Nodejs.
+          Experienced Frontend Engineer with a strong background in the
+          information technology and services industry. Proficient in React,
+          JavaScript, and Node.js, with a focus on delivering efficient and
+          effective solutions. Passionate about user-centric design and creating
+          intuitive user experiences. Adept at collaborating with
+          cross-functional teams and translating business requirements into
+          technical specifications. Committed to staying up-to-date with
+          industry trends and continuously expanding the skill set. Strong
+          problem-solving abilities and excellent communication skills.
         </p>
-        <Link to="About">
-          <button>More Info</button>
+        <Link
+          to="About"
+          className="border rounded-full py-2 px-4 text-sm mt-5 bg-gray-500 text-white hover:bg-black"
+        >
+          More Info
         </Link>
       </div>
       <div className="person">

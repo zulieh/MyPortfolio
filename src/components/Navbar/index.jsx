@@ -14,9 +14,6 @@ const Navbar = () => {
                         <Link to= "/" className="nav-link" onClick={() => setOpen(false)}>About</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to= "/Skills" className="nav-link" onClick={() => setOpen(false)}>Skills</Link>
-                    </li>
-                    <li className="nav-item">
                         <Link to="/Work" className="nav-link" onClick={() => setOpen(false)}>Work</Link>
                     </li>
                     <li className="navbar">

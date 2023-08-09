@@ -11,16 +11,18 @@ import Contact from './components/Contact'
 function App() {
 	return (
 		<Router>
-			<div className='app'>
+			<div className='app justify-between'>
 				<Navbar />
 
-				<Routes>
-					<Route exact path='/' element={<Home />} />
-					<Route path='/About' exact element={<About />} />
-					<Route path='/Skills' exact element={<Skills />} />
-					<Route path='/Work' exact element={<Work />} />
-					<Route path='/Contact' exact element={<Contact />} />
-				</Routes>
+				<div className="">
+					<Routes>
+						<Route exact path='/' element={<Home />} />
+						<Route path='/About' exact element={<About />} />
+						<Route path='/Skills' exact element={<Skills />} />
+						<Route path='/Work' exact element={<Work />} />
+						<Route path='/Contact' exact element={<Contact />} />
+					</Routes>
+				</div>
 
 				<Footer />
 			</div>
