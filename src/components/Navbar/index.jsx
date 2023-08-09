@@ -6,12 +6,12 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
     return (
         <nav className= "navbar">
-            <Link to= "/" className= "logo" onClick={() => setOpen(false)}>
+            <Link to= "/" className= "logo hover:bg-black" onClick={() => setOpen(false)}>
                 ZD
             </Link>
                 <ul className={open ? "nav-links-active" : "nav-links"}>
                     <li className="nav-item">
-                        <Link to= "/Home" className="nav-link" onClick={() => setOpen(false)}>About</Link>
+                        <Link to= "/" className="nav-link" onClick={() => setOpen(false)}>About</Link>
                     </li>
                     <li className="nav-item">
                         <Link to= "/Skills" className="nav-link" onClick={() => setOpen(false)}>Skills</Link>

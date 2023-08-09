@@ -10,19 +10,19 @@ const Footer = () => (
         <div className = "footer-list">
             <ul className =  "footer-media-link">
                 <li className = "footer-media-item">
-                    <a target="_blank" href="https://github.com/zulieh" className="footer-media-link">
+                    <a target="_blank" href="https://github.com/zulieh" className="footer-media-link" rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} />   
                     </a>
                 </li>
 
                 <li className = "footer-media-item">
-                    <a target="_blank" href="https://www.linkedin.com/in/dantijani-zuleiha-577a15bb/" className="footer-media-link">
+                    <a target="_blank" href="https://www.linkedin.com/in/dantijani-zuleiha-577a15bb/" className="footer-media-link" rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </li>
 
                 <li className = "footer-media-item">
-                    <a target="_blank" href="https://medium.com/@Zuliekha" className="footer-media-link">
+                    <a target="_blank" href="https://medium.com/@Zuliekha" className="footer-media-link" rel="noreferrer">
                         <FontAwesomeIcon icon={faMedium} />
                     </a>
                 </li> 
