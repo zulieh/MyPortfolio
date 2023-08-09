@@ -4,10 +4,10 @@ const ProjectDetails = ({ project }) => {
   const { about, cover, name, link } = project;
 
   return (
-    <div className='max-w-lg'>
-      <img src={cover} alt={name} className='w-10'/>
-      <p className='my-4'>{about}</p>
-      <a href={link} target="_blank" className='hover:text-red-200'>Check it out</a>
+    <div className='max-w-lg border-l-4 border-indigo-500'>
+      <img src={cover} alt={name} className='w-10 m-6'/>
+      <p className='my-4 m-6'>{about}</p>
+      <a href={link} target="_blank" className='hover:text-red-200 m-6'>Check it out</a>
     </div>
   )
 }

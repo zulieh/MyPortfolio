@@ -5,7 +5,7 @@ const ProjectList = ({ projects, setProject }) => {
     <ul>
       {projects.map((project) => (
         <li
-          className="hover:text-gray-500 mt-1"
+          className="hover:text-gray-500 mt-1 hover:border-b-4 hover:mb-3"
           key={project.name}
           onClick={() => setProject(project)}
         >

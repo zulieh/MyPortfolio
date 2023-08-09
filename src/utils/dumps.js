@@ -2,43 +2,35 @@ export const projects = [
   {
     name: "Wayagram",
     link: "https://wayagram.ng/",
-    cover: "https://vitejs.dev/logo.svg",
+    cover: "",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio similique quisquam repellendus repudiandae soluta aliquam maxime culpa obcaecati consequatur perspiciatis dolores, alias deleniti assumenda blanditiis dicta quibusdam quos provident vero?",
+      "Wayagram is a social media app that allows you to chat, make call and socialize with people, it has features such as market place which allows business owners to post and sell their products as well as event hosting feature which allows users create events and share to other people to attend, it has donation feature and poll feature which allow users to create either free poll and paid poll.  ",
   },
   {
-    name: "Wayalinks",
+    name: "Wayaquick",
     link: "https://wayaquick.com/",
     cover: "https://vitejs.dev/logo.svg",
-    about:
-      " sit amet, consectetur adipisicing elit. Optio similique quisquam repellendus repudiandae soluta aliquam maxime culpa obcaecati consequatur perspiciatis dolores, alias deleniti assumenda blanditiis dicta quibusdam quos provident vero?",
+    about: "Wayaquick is a payment platform which allow users to carry out different payment trasaction either by USSD, Pay with card, make payment with bank account or scan to pay. "
   },
   {
     name: "Certificate Verification Tool",
     link: "https://codeevaluation.com/",
     cover: "https://vitejs.dev/logo.svg",
     about:
-      "Optio similique quisquam repellendus repudiandae soluta aliquam maxime culpa obcaecati consequatur perspiciatis dolores, alias deleniti assumenda blanditiis dicta quibusdam quos provident vero?",
+      "Certificate verification tool is an application that allows users to verify the authenticity of their cerficate issued by data science nigeria.",
   },
   {
     name: "Code Evaluation Tool",
     link: "https://codeevaluation.com/",
     cover: "https://vitejs.dev/logo.svg",
     about:
-      "similique quisquam repellendus repudiandae soluta aliquam maxime culpa obcaecati consequatur perspiciatis dolores, alias deleniti assumenda blanditiis dicta quibusdam quos provident vero?",
+      "Code Evaluation tool is a tool for enabling the grading of Python exercises. This tool encompassed features such as authentication, authorization, validations, data storage, persistence, and a code editor.      ",
   },
   {
     name: "Task Tracker",
     link: "https://trackerzz.netlify.app/",
     cover: "https://vitejs.dev/logo.svg",
     about:
-      "consectetur adipisicing elit. Optio similique quisquam repellendus repudiandae soluta aliquam maxime culpa obcaecati consequatur perspiciatis dolores, alias deleniti assumenda blanditiis dicta quibusdam quos provident vero?",
-  },
-  {
-    name: "Code Evaluation Toool",
-    link: "https://codeevaluation.com/",
-    cover: "https://vitejs.dev/logo.svg",
-    about:
-      "adipisicing elit. Optio similique quisquam repellendus repudiandae soluta aliquam maxime culpa obcaecati consequatur perspiciatis dolores, alias deleniti assumenda blanditiis dicta quibusdam quos provident vero?",
+      " Task Tracker is a simple application that helps you create tas and set a tiome and date for each task.",
   },
 ];
