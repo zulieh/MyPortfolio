@@ -8,16 +8,12 @@ const Home = () => {
       <div className="title">
         <h1>Zuleiha Dantijani</h1>
         <h4>Frontend Engineer</h4>
-        <p>
+        <p className="my-8 ">
           Experienced Frontend Engineer with a strong background in the
           information technology and services industry. Proficient in React,
           JavaScript, and Node.js, with a focus on delivering efficient and
           effective solutions. Passionate about user-centric design and creating
-          intuitive user experiences. Adept at collaborating with
-          cross-functional teams and translating business requirements into
-          technical specifications. Committed to staying up-to-date with
-          industry trends and continuously expanding the skill set. Strong
-          problem-solving abilities and excellent communication skills.
+          intuitive user experiences.
         </p>
         <Link
           to="About"

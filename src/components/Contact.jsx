@@ -4,8 +4,8 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 const Contact = () => {
   return (
-    <div>
-      <h2>Contact</h2>
+    <div className="flex flex-col item-center bg-gray-500">
+      <h2 className="flex flex-col">Contact</h2>
       <p>
         +2348138348347
         <FontAwesomeIcon icon={faPhone} />
