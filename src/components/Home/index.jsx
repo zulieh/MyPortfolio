@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./style.css";
+import pix from '../../assets/profile_p.jpeg'
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
         </Link>
       </div>
       <div className="person">
-        <img src={`${process.env.PUBLIC_URL}/profile_p.jpeg`} alt="mypicture" />
+        <img src={pix} alt="mypicture" />
       </div>
     </div>
   );
